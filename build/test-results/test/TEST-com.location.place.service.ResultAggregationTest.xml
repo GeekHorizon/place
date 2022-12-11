@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.location.place.service.ResultAggregationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-11T11:18:05" hostname="MAC-IRISGRAM.local" time="0.016">
+  <properties/>
+  <testcase name="test1" classname="com.location.place.service.ResultAggregationTest" time="0.01"/>
+  <testcase name="test2" classname="com.location.place.service.ResultAggregationTest" time="0.004"/>
+  <testcase name="test3" classname="com.location.place.service.ResultAggregationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.location.place.vendor.naver.api.NaverPlaceSearchApiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-11T11:18:12" hostname="MAC-IRISGRAM.local" time="0.417">
+  <properties/>
+  <testcase name="sinario" classname="com.location.place.vendor.naver.api.NaverPlaceSearchApiTest" time="0.417"/>
+  <system-out><![CDATA[20:18:05.621 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.621 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.621 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.621 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.625 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3cb0d743 testClass = NaverPlaceSearchApiTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5113cb44 testClass = NaverPlaceSearchApiTest, locations = '{}', classes = '{class com.location.PlaceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@41956ab9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@12b0d31a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@57f37e4c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7e27dae5, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+20:18:05.626 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.626 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.location.place.vendor.naver.api.NaverPlaceSearchApiTest]
+20:18:05.651 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2022-12-11 20:18:06.130  INFO 43863 --- [    Test worker] c.l.p.v.n.api.NaverPlaceSearchApiTest    : Starting NaverPlaceSearchApiTest on MAC-IRISGRAM.local with PID 43863 (started by irisgram in /Users/irisgram/dev/place)
+2022-12-11 20:18:06.133  INFO 43863 --- [    Test worker] c.l.p.v.n.api.NaverPlaceSearchApiTest    : No active profile set, falling back to default profiles: default
+2022-12-11 20:18:07.143  INFO 43863 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2022-12-11 20:18:07.352  INFO 43863 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201ms. Found 1 JPA repository interfaces.
+2022-12-11 20:18:08.754  INFO 43863 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-11 20:18:08.788  INFO 43863 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-11 20:18:08.973  INFO 43863 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-11 20:18:09.227  INFO 43863 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-11 20:18:09.315  INFO 43863 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2022-12-11 20:18:09.558  INFO 43863 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-12-11 20:18:09.806  INFO 43863 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table if exists keyword CASCADE 
+Hibernate: create table keyword (name varchar(255) not null, count bigint, primary key (name))
+2022-12-11 20:18:10.665  INFO 43863 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-11 20:18:10.678  INFO 43863 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-11 20:18:10.891  WARN 43863 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-11 20:18:12.136  INFO 43863 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:place'
+2022-12-11 20:18:12.328  INFO 43863 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2022-12-11 20:18:12.933  INFO 43863 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2022-12-11 20:18:12.946  INFO 43863 --- [    Test worker] c.l.p.v.n.api.NaverPlaceSearchApiTest    : Started NaverPlaceSearchApiTest in 7.286 seconds (JVM running for 8.803)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

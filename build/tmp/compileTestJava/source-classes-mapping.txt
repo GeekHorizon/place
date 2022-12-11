@@ -1,0 +1,6 @@
+com/location/place/vendor/naver/api/NaverPlaceSearchApiTest.java
+ com.location.place.vendor.naver.api.NaverPlaceSearchApiTest
+com/location/place/vendor/kakao/api/KakaoPlaceSearchApiTest.java
+ com.location.place.vendor.kakao.api.KakaoPlaceSearchApiTest
+com/location/place/service/ResultAggregationTest.java
+ com.location.place.service.ResultAggregationTest
